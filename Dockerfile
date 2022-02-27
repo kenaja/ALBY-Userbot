@@ -3,7 +3,7 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By ALBY-Userbot ━━━━━
 
-RUN git clone -b ALBY-Userbot https://github.com/PunyaAlby/ALBY-Userbot /root/userbot
+RUN git clone -b ALBY-Userbot https://github.com/kenaja/ALBY-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
